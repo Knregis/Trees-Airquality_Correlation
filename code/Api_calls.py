@@ -1,8 +1,8 @@
 import pandas as pd
-import streamlit as st
 import requests
 import config
 import time
+
 
 
 # starting off by gaining access to the reddit API

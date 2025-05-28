@@ -31,16 +31,16 @@ def clean_data(df):
     # Remove rows where 'selftext' has less than 2 words
     df = df[df['selftext'].str.split().str.len() >= 2]
 
-    # Need to make the created_utc into datetime format
-    df = df[df['created_utc'].strftime('%Y-%m-%d %H:%M:%S')]
-    # TODO need make the epoch time into datetime and to organize the datetime by newest
-    # to oldest
+    # need make the epoch time into datetime and to organize the datetime 
+    df['date'] = pd.to_datetime(df['date'], unit='s')
+    df['date'] = df['date'].dt.strftime('%Y-%m-%d')
+
     return df
 
 
 #----------------------------------------------
 # combine both dataframes into one
-df = pd.read_csv("Sims4_data.csv")
+df = pd.read_csv("excel_files/Sims4_data.csv")
 
 df_clean = clean_data(df)
 

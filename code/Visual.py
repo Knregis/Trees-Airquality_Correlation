@@ -6,10 +6,9 @@ from wordcloud import STOPWORDS
 import pandas as pd
 
 
-
 # I need a plot that will show the difference between positive, neutral, and negative sentiment
 # Loading data
-sentiment_data = pd.read_csv('merged_sentiment.csv')
+sentiment_data = pd.read_csv('excel_files/merged_sentiment.csv')
 sentiment_data['count'] = 1
 
 # barplot

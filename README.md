@@ -26,9 +26,9 @@ As a final project we were given the task of creating a question we would like t
 
 The three datasets used were taken from NYC's Open Data:
 
-* [airquality](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r/about_data)
-* [tree_2005](https://data.cityofnewyork.us/Environment/2005-Street-Tree-Census/29bw-z7pj/about_data)
-* [tree_2015](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh/about_data)
+* [airquality (https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r/about_data)]
+* [tree_2005 (https://data.cityofnewyork.us/Environment/2005-Street-Tree-Census/29bw-z7pj/about_data)]
+* [tree_2015 (https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh/about_data)]
 
 #### Data Cleaning
 
